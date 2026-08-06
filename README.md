@@ -17,9 +17,9 @@ This repository is under active development. Many features are TODO.
 ### 📝 Complete TODO List
 
 - [ ] **forge/cache/store.py:2** - garbage-collect unreferenced blobs
+- [ ] **forge/cache/store.py:6** - verify content hash on read
 - [ ] **forge/cli/main.py:2** - add a --dry-run flag
 - [ ] **forge/cli/main.py:3** - print a build summary at the end
-- [ ] **forge/cli/main.py:50** - add remote build execution
 - [ ] **forge/graph/dag.py:3** - detect and report cycles eagerly
 - [ ] **forge/graph/dag.py:7** - make ordering deterministic across runs
 - [ ] **forge/graph/dag.py:8** - parallelize independent build nodes
